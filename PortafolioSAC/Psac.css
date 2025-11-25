@@ -1,0 +1,200 @@
+/*Contenedores padre*/
+body{
+    background-color: #000000;
+    background-image: url(./imgporta/wallhaven-6qmv8l_1920x1080.png);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.conte1{
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+}
+.imgperfil{
+    background-color: #9fe4eb8a;
+    border: 1px solid;
+    border-radius: 5px;
+    border-color: #9fe3eb;
+    border-top: solid 20px #9fe3eb;
+    width: 30vh;
+    height: 30vh;
+    margin-top: 20px;
+    margin-bottom: 60px;
+    background-image: url(./imgporta/Gemini_Generated_Image_aguw07aguw07aguw.png);
+    background-position: center;
+    background-size: cover;
+}
+nav{
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    position: sticky;
+    top: 75px;
+    background-color: #9fe4eb8a;
+    border: 1px solid;
+    border-color: #9fe3eb;
+    border-top: solid 20px #9fe3eb;
+    width: 30vh;
+    height: 50vh;
+
+}
+header{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 35vh;
+    height: 100%;
+    background-color: #6052e0e3;
+}
+main{
+    grid-template-columns: 1fr;
+}
+
+section{
+    margin: 10px;
+    border: 1px solid;
+    border-color:#9fe3eb;
+    background-color: #9fe4eb8a;
+}
+footer{
+    display: flex;
+    width: 100%;
+    background-color: #9fe3eb;
+    align-items: center;
+}
+/*#################################################Modo oscuro################################*/
+body.ncdp{
+    background-image: url(./imgporta/Gemini_Generated_Image_xvpz1qxvpz1qxvpz.png);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    color: #ffffff;
+}
+.cianmodonocturno{
+    background-color: #6052e0be;
+    border: solid 3px #6052e0;
+    border-top: solid 20px #6052e0;
+}
+.cianmodonocturnoh1{
+    background-color: #6052e0be;
+    border: solid 3px #6052e0;
+    border-top: solid 1px #6052e0;
+}
+.h1nocturno{
+    background-color: #6052e0;
+}
+.headermodonocturno{
+    background-color: #9fe4eb8a;
+}
+.tarjetas.tarjenoc{
+    border-color:#9fe3eb;
+    background-color: #9fe4eb8a;
+}
+.info.infonoc{
+    border-color:#9fe3eb;
+    background-color: #9fe4eb8a;
+}
+/*#########################################################etiquetas#####################################*/
+h1{
+    background-color: #9fe3eb;
+}
+.info{
+    background-color: #6052e0be;
+    margin-top: 20px;
+    border: solid 3px #6052e0;
+    border-top: solid 20px #6052e0;
+    border-radius: 5px;
+    margin: 20px;
+}
+.olitems{
+    height:50% ;
+    width: 100%; 
+    padding-left: 4px;
+    margin: 30px;
+    display: flex;
+    align-items: stretch;
+    flex-direction: column;
+    justify-content:space-around;
+}
+.olestu{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+.olContac{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+}
+a{
+    display: flex;
+    color: rgb(31, 30, 30);
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    background: linear-gradient(160deg,#6052e0e3 20%, #9fe3eb 70%);
+    justify-content: center;
+    align-items: center;
+}
+.anav{
+    display: flex;
+    color: rgb(31, 30, 30);
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px;
+    background: linear-gradient(160deg,#6052e0e3 20%, #9fe3eb 70%);
+    justify-content: space-evenly;
+    align-items: center;
+}
+.acamnd{
+   display:flex; 
+   justify-content: center;
+   position: absolute;
+   background: linear-gradient(160deg,#6052e0e3 20%, #9fe3eb 70%);
+   border-radius: 5px;
+   width: 75px;
+   height: 25px;
+   margin: 10px;
+   margin-left: 150vh;
+}
+
+.tarjetas{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50vh;
+    height: 70vh;
+    background-color: #6052e0be;
+    margin-top: 20px;
+    border: solid 3px #6052e0;
+    border-top: solid 20px #6052e0;
+    border-radius: 5px;
+}
+i{
+    font-size: 23px;
+}
+p{
+    background-color: #aba4f7;
+    border: solid 1px #9fe3eb;
+    border-radius: 5px;
+    margin: 20px;
+}
+.imod{
+    font-size: 75px;
+    background-color: #aba4f7;
+    height: 25vh;
+    width: 25vh;
+    display: flex;
+    margin-top: 25px;
+    align-items: center;
+    justify-content: center;
+    border: solid 1px #9fe3eb;
+    border-radius: 5px;
+}
+.imod2{
+    margin-left: 4px;
+    margin-right: 4px;
+}
